@@ -15,4 +15,9 @@ public class HelloController {
     public String world(){
         return "good good study, day day up.";
     }
+
+    @RequestMapping("/java")
+    public String java(){
+        return "java";
+    }
 }
